@@ -72,4 +72,4 @@ This track contains supporting questions that strengthen core techniques used in
 
 ---
 
-Aritro Saha
+[![Aritro Saha](https://img.shields.io/badge/Aritro-Saha-brightgreen?style=for-the-badge)](https://aritro.cloud)
