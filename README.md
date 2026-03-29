@@ -31,7 +31,7 @@ graph LR
     A[Practice Repository]
     A --> T1[Arrays and Hashing]
     A --> T2[Two Pointers]
-    A --> B0[Bonus Foundations]
+    T2 --> B1[Bonus Foundations]
 ```
 <!-- AUTO:PATTERN_COVERAGE:END -->
 

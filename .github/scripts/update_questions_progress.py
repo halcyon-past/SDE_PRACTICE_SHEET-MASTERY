@@ -290,17 +290,22 @@ def build_snapshot_section(entries: List[QuestionEntry]) -> str:
 
 def build_pattern_coverage_section(entries: List[QuestionEntry]) -> str:
     topics = sorted({entry.topic for entry in entries})
-    bonus_count = sum(1 for entry in entries if entry.is_bonus)
+    bonus_topics = sorted({entry.topic for entry in entries if entry.is_bonus})
+    topic_nodes = {topic: f"T{idx}" for idx, topic in enumerate(topics, start=1)}
 
     lines: List[str] = []
     lines.append("```mermaid")
     lines.append("graph LR")
     lines.append("    A[Practice Repository]")
-    for idx, topic in enumerate(topics, start=1):
-        node = f"T{idx}"
+    for topic in topics:
+        node = topic_nodes[topic]
         lines.append(f"    A --> {node}[{topic}]")
-    if bonus_count > 0:
-        lines.append("    A --> B0[Bonus Foundations]")
+
+    for idx, topic in enumerate(bonus_topics, start=1):
+        topic_node = topic_nodes[topic]
+        bonus_node = f"B{idx}"
+        lines.append(f"    {topic_node} --> {bonus_node}[Bonus Foundations]")
+
     lines.append("```")
 
     return "\n".join(lines)
