@@ -1,16 +1,19 @@
 {
-  "generated_at": "2026-03-29T22:50:55.402948+00:00",
+  "generated_at": "2026-03-29T22:54:45.794642+00:00",
   "summary": {
-    "total_questions": 13,
+    "total_questions": 14,
     "total_bonus": 1,
-    "topic_count": 2
+    "topic_count": 3
   },
   "topics": [
     "Arrays and Hashing",
+    "Sliding Window",
     "Two Pointers"
   ],
   "changes_since_last_run": {
-    "added": [],
+    "added": [
+      "Questions/Sliding Window/Leetcode_121.py"
+    ],
     "removed": []
   },
   "questions": [
@@ -77,6 +80,14 @@
       "is_bonus": false,
       "title": "Valid Anagram",
       "relative_path": "Questions/Arrays and Hashing/Leetcode_242.py"
+    },
+    {
+      "topic": "Sliding Window",
+      "file_name": "Leetcode_121.py",
+      "question_number": 121,
+      "is_bonus": false,
+      "title": "Best Time to Buy and Sell Stock",
+      "relative_path": "Questions/Sliding Window/Leetcode_121.py"
     },
     {
       "topic": "Two Pointers",
