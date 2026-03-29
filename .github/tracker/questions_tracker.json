@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-03-29T22:49:35.839213+00:00",
+  "summary": {
+    "total_questions": 13,
+    "total_bonus": 1,
+    "topic_count": 2
+  },
+  "topics": [
+    "Arrays and Hashing",
+    "Two Pointers"
+  ],
+  "changes_since_last_run": {
+    "added": [],
+    "removed": []
+  },
+  "questions": [
+    {
+      "topic": "Arrays and Hashing",
+      "file_name": "Leetcode_1.py",
+      "question_number": 1,
+      "is_bonus": false,
+      "title": "Two Sum",
+      "relative_path": "Questions/Arrays and Hashing/Leetcode_1.py"
+    },
+    {
+      "topic": "Arrays and Hashing",
+      "file_name": "Leetcode_31.py",
+      "question_number": 31,
+      "is_bonus": false,
+      "title": "Next Permutation",
+      "relative_path": "Questions/Arrays and Hashing/Leetcode_31.py"
+    },
+    {
+      "topic": "Arrays and Hashing",
+      "file_name": "Leetcode_53.py",
+      "question_number": 53,
+      "is_bonus": false,
+      "title": "Maximum Subarray",
+      "relative_path": "Questions/Arrays and Hashing/Leetcode_53.py"
+    },
+    {
+      "topic": "Arrays and Hashing",
+      "file_name": "Leetcode_73.py",
+      "question_number": 73,
+      "is_bonus": false,
+      "title": "Set Matrix Zeroes",
+      "relative_path": "Questions/Arrays and Hashing/Leetcode_73.py"
+    },
+    {
+      "topic": "Arrays and Hashing",
+      "file_name": "Leetcode_118.py",
+      "question_number": 118,
+      "is_bonus": false,
+      "title": "Pascal's Triangle",
+      "relative_path": "Questions/Arrays and Hashing/Leetcode_118.py"
+    },
+    {
+      "topic": "Arrays and Hashing",
+      "file_name": "Leetcode_128.py",
+      "question_number": 128,
+      "is_bonus": false,
+      "title": "Longest Consecutive Sequence",
+      "relative_path": "Questions/Arrays and Hashing/Leetcode_128.py"
+    },
+    {
+      "topic": "Arrays and Hashing",
+      "file_name": "Leetcode_217.py",
+      "question_number": 217,
+      "is_bonus": false,
+      "title": "Contains Duplicate",
+      "relative_path": "Questions/Arrays and Hashing/Leetcode_217.py"
+    },
+    {
+      "topic": "Arrays and Hashing",
+      "file_name": "Leetcode_242.py",
+      "question_number": 242,
+      "is_bonus": false,
+      "title": "Valid Anagram",
+      "relative_path": "Questions/Arrays and Hashing/Leetcode_242.py"
+    },
+    {
+      "topic": "Two Pointers",
+      "file_name": "Leetcode_11.py",
+      "question_number": 11,
+      "is_bonus": false,
+      "title": "Container With Most Water",
+      "relative_path": "Questions/Two Pointers/Leetcode_11.py"
+    },
+    {
+      "topic": "Two Pointers",
+      "file_name": "Leetcode_15.py",
+      "question_number": 15,
+      "is_bonus": false,
+      "title": "3Sum",
+      "relative_path": "Questions/Two Pointers/Leetcode_15.py"
+    },
+    {
+      "topic": "Two Pointers",
+      "file_name": "Leetcode_42.py",
+      "question_number": 42,
+      "is_bonus": false,
+      "title": "Trapping Rain Water",
+      "relative_path": "Questions/Two Pointers/Leetcode_42.py"
+    },
+    {
+      "topic": "Two Pointers",
+      "file_name": "Leetcode_125.py",
+      "question_number": 125,
+      "is_bonus": false,
+      "title": "Valid Palindrome",
+      "relative_path": "Questions/Two Pointers/Leetcode_125.py"
+    },
+    {
+      "topic": "Two Pointers",
+      "file_name": "Leetcode_Bonus_167.py",
+      "question_number": 167,
+      "is_bonus": true,
+      "title": "Two Sum II - Input Array Is Sorted",
+      "relative_path": "Questions/Two Pointers/Leetcode_Bonus_167.py"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+name: Update README Progress
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-progress:
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate tracker and README
+        run: python .github/scripts/update_questions_progress.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "halcyon-past"
+          git config user.email "titanssuperior@gmail.com"
+
+          git add README.md .github/tracker/questions_tracker.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "chore: auto-update questions progress [skip ci]"
+          git push
