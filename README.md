@@ -10,13 +10,14 @@ A structured Data Structures and Algorithms practice repository focused on patte
 <!-- AUTO:PROJECT_SNAPSHOT:START -->
 | Metric | Value |
 |---|---:|
-| Total Problems Solved | 13 |
-| Core Patterns Covered | 2 |
+| Total Problems Solved | 14 |
+| Core Patterns Covered | 3 |
 | Bonus Problems | 1 |
 
 ```mermaid
 pie title Solved Problem Distribution
     "Arrays and Hashing" : 8
+    "Silding Window" : 1
     "Two Pointers" : 4
     "Bonus" : 1
 ```
@@ -30,8 +31,9 @@ pie title Solved Problem Distribution
 graph LR
     A[Practice Repository]
     A --> T1[Arrays and Hashing]
-    A --> T2[Two Pointers]
-    T2 --> B1[Bonus Foundations]
+    A --> T2[Silding Window]
+    A --> T3[Two Pointers]
+    T3 --> B1[Bonus Foundations]
 ```
 <!-- AUTO:PATTERN_COVERAGE:END -->
 
@@ -51,6 +53,12 @@ graph LR
 | 6 | LeetCode 128 - Longest Consecutive Sequence | [Leetcode_128.py](Questions/Arrays%20and%20Hashing/Leetcode_128.py) |
 | 7 | LeetCode 217 - Contains Duplicate | [Leetcode_217.py](Questions/Arrays%20and%20Hashing/Leetcode_217.py) |
 | 8 | LeetCode 242 - Valid Anagram | [Leetcode_242.py](Questions/Arrays%20and%20Hashing/Leetcode_242.py) |
+
+### Silding Window (1)
+
+| # | Problem | File |
+|---:|---|---|
+| 1 | LeetCode 121 - Best Time to Buy and Sell Stock | [Leetcode_121.py](Questions/Silding%20Window/Leetcode_121.py) |
 
 ### Two Pointers (4)
 
