@@ -229,11 +229,17 @@ def build_tracker(entries: List[QuestionEntry], title_map: Dict[int, str]) -> di
     added = sorted(current_paths - previous_paths)
     removed = sorted(previous_paths - current_paths)
 
+    previous_generated_at = previous_payload.get("generated_at") if isinstance(previous_payload, dict) else None
+    if added or removed:
+        generated_at = datetime.now(timezone.utc).isoformat()
+    else:
+        generated_at = previous_generated_at or datetime.now(timezone.utc).isoformat()
+
     topics = sorted({entry.topic for entry in entries})
     bonus_count = sum(1 for entry in entries if entry.is_bonus)
 
     tracker_payload = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": generated_at,
         "summary": {
             "total_questions": len(entries),
             "total_bonus": bonus_count,
