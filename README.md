@@ -1,4 +1,4 @@
-# SDE Practice Sheet Mastery
+# SDE Practice Sheet - Mastery
 
 A structured Data Structures and Algorithms practice repository focused on pattern-based problem solving.
 
