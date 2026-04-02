@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-30T16:36:19.600133+00:00",
+  "generated_at": "2026-04-02T18:46:21.576755+00:00",
   "summary": {
-    "total_questions": 14,
+    "total_questions": 15,
     "total_bonus": 1,
     "topic_count": 3
   },
@@ -11,7 +11,9 @@
     "Two Pointers"
   ],
   "changes_since_last_run": {
-    "added": [],
+    "added": [
+      "Questions/Silding Window/Leetcode_3.py"
+    ],
     "removed": []
   },
   "questions": [
@@ -78,6 +80,14 @@
       "is_bonus": false,
       "title": "Valid Anagram",
       "relative_path": "Questions/Arrays and Hashing/Leetcode_242.py"
+    },
+    {
+      "topic": "Silding Window",
+      "file_name": "Leetcode_3.py",
+      "question_number": 3,
+      "is_bonus": false,
+      "title": "Longest Substring Without Repeating Characters",
+      "relative_path": "Questions/Silding Window/Leetcode_3.py"
     },
     {
       "topic": "Silding Window",

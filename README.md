@@ -10,14 +10,14 @@ A structured Data Structures and Algorithms practice repository focused on patte
 <!-- AUTO:PROJECT_SNAPSHOT:START -->
 | Metric | Value |
 |---|---:|
-| Total Problems Solved | 14 |
+| Total Problems Solved | 15 |
 | Core Patterns Covered | 3 |
 | Bonus Problems | 1 |
 
 ```mermaid
 pie title Solved Problem Distribution
     "Arrays and Hashing" : 8
-    "Silding Window" : 1
+    "Silding Window" : 2
     "Two Pointers" : 4
     "Bonus" : 1
 ```
@@ -54,11 +54,12 @@ graph LR
 | 7 | LeetCode 217 - Contains Duplicate | [Leetcode_217.py](Questions/Arrays%20and%20Hashing/Leetcode_217.py) |
 | 8 | LeetCode 242 - Valid Anagram | [Leetcode_242.py](Questions/Arrays%20and%20Hashing/Leetcode_242.py) |
 
-### Silding Window (1)
+### Silding Window (2)
 
 | # | Problem | File |
 |---:|---|---|
-| 1 | LeetCode 121 - Best Time to Buy and Sell Stock | [Leetcode_121.py](Questions/Silding%20Window/Leetcode_121.py) |
+| 1 | LeetCode 3 - Longest Substring Without Repeating Characters | [Leetcode_3.py](Questions/Silding%20Window/Leetcode_3.py) |
+| 2 | LeetCode 121 - Best Time to Buy and Sell Stock | [Leetcode_121.py](Questions/Silding%20Window/Leetcode_121.py) |
 
 ### Two Pointers (4)
 
