@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-02T18:46:21.576755+00:00",
+  "generated_at": "2026-04-02T19:18:57.968484+00:00",
   "summary": {
-    "total_questions": 15,
+    "total_questions": 16,
     "total_bonus": 1,
     "topic_count": 3
   },
@@ -12,7 +12,7 @@
   ],
   "changes_since_last_run": {
     "added": [
-      "Questions/Silding Window/Leetcode_3.py"
+      "Questions/Silding Window/Leetcode_424.py"
     ],
     "removed": []
   },
@@ -96,6 +96,14 @@
       "is_bonus": false,
       "title": "Best Time to Buy and Sell Stock",
       "relative_path": "Questions/Silding Window/Leetcode_121.py"
+    },
+    {
+      "topic": "Silding Window",
+      "file_name": "Leetcode_424.py",
+      "question_number": 424,
+      "is_bonus": false,
+      "title": "Longest Repeating Character Replacement",
+      "relative_path": "Questions/Silding Window/Leetcode_424.py"
     },
     {
       "topic": "Two Pointers",
