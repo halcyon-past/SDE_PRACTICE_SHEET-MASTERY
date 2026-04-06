@@ -10,13 +10,14 @@ A structured Data Structures and Algorithms practice repository focused on patte
 <!-- AUTO:PROJECT_SNAPSHOT:START -->
 | Metric | Value |
 |---|---:|
-| Total Problems Solved | 16 |
-| Core Patterns Covered | 3 |
+| Total Problems Solved | 17 |
+| Core Patterns Covered | 4 |
 | Bonus Problems | 1 |
 
 ```mermaid
 pie title Solved Problem Distribution
     "Arrays and Hashing" : 8
+    "Binary Search" : 1
     "Silding Window" : 3
     "Two Pointers" : 4
     "Bonus" : 1
@@ -31,9 +32,10 @@ pie title Solved Problem Distribution
 graph LR
     A[Practice Repository]
     A --> T1[Arrays and Hashing]
-    A --> T2[Silding Window]
-    A --> T3[Two Pointers]
-    T3 --> B1[Bonus Foundations]
+    A --> T2[Binary Search]
+    A --> T3[Silding Window]
+    A --> T4[Two Pointers]
+    T4 --> B1[Bonus Foundations]
 ```
 <!-- AUTO:PATTERN_COVERAGE:END -->
 
@@ -53,6 +55,12 @@ graph LR
 | 6 | LeetCode 128 - Longest Consecutive Sequence | [Leetcode_128.py](Questions/Arrays%20and%20Hashing/Leetcode_128.py) |
 | 7 | LeetCode 217 - Contains Duplicate | [Leetcode_217.py](Questions/Arrays%20and%20Hashing/Leetcode_217.py) |
 | 8 | LeetCode 242 - Valid Anagram | [Leetcode_242.py](Questions/Arrays%20and%20Hashing/Leetcode_242.py) |
+
+### Binary Search (1)
+
+| # | Problem | File |
+|---:|---|---|
+| 1 | LeetCode 704 - Binary Search | [Leetcode_704.py](Questions/Binary%20Search/Leetcode_704.py) |
 
 ### Silding Window (3)
 
